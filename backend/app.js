@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 const pinoHttp = require("pino-http");
-
 const logger = require("./utils/logger")("App");
 const creditPackageRouter = require("./routes/creditPackage");
 const skillRouter = require("./routes/skill");
@@ -27,6 +26,7 @@ app.use(
   }),
 );
 app.use(express.static(path.join(__dirname, "public")));
+
 app.get("/healthcheck", (req, res) => {
   res.status(200).json({
     status: "success",
