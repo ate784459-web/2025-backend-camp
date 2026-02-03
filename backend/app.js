@@ -11,7 +11,6 @@ const adminRouter = require("./routes/admin");
 const coachRouter = require("./routes/coaches");
 const coursesRouter = require("./routes/courses");
 const uploadRouter = require("./routes/upload");
-
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -28,7 +27,6 @@ app.use(
   }),
 );
 app.use(express.static(path.join(__dirname, "public")));
-
 app.get("/healthcheck", (req, res) => {
   res.status(200).json({
     status: "success",
