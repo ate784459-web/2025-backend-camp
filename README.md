@@ -1,5 +1,7 @@
 # 2025 Backend Camp - 健身房管理系統
 
+# 測試
+
 全端健身房管理系統，包含會員管理、教練管理、課程預約、訂單管理等功能。採用前後端分離架構，使用 Docker Compose 進行容器化部署。
 
 ## 專案架構
@@ -17,6 +19,7 @@
 ## 技術
 
 ### 後端
+
 - **框架**: Express.js
 - **資料庫**: PostgreSQL 16.4
 - **ORM**: TypeORM
@@ -26,6 +29,7 @@
 - **測試**: Jest
 
 ### 前端
+
 - **框架**: Vue 3
 - **建構工具**: Vite
 - **路由**: Vue Router
@@ -35,6 +39,7 @@
 - **HTTP 客戶端**: Axios
 
 ### 基礎設施
+
 - **容器化**: Docker & Docker Compose
 - **資料庫**: PostgreSQL (Alpine Linux)
 - **Node 版本**: 24 (Alpine)

@@ -1,5 +1,7 @@
 # Node.js + TypeORM 訓練
 
+# 測試
+
 ## 本地檢核方法
 
 - 複製.env.example，並命名為.env，確認環境變數 DB_HOST=postgres
